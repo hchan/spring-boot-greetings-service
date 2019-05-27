@@ -18,7 +18,8 @@
 - takes a LONG time to run `java -jar target\*.jar`
 - added a `GreetingServiceTest.runDummyServer` for debugging in interactive mode in `Thorntail` ... a hack
 - SpringBoot has a `SpringBootApplication` ... vanilla `main` method
- 
+- code was not transferrable from Thorntail to Open Liberty ( Open Liberty's `@ConfigProperty` choked ) ... does this mean vendor lock-in with MicroProfile?
+
 ## Atlernative to Arquillian / SpringRunner
 - I believe testing Microservices is part of Integration testing wrt [Martin Fowler's test Pyramid](https://martinfowler.com/articles/practical-test-pyramid.html)
 - Java may not be the answer
