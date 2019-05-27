@@ -24,6 +24,7 @@
 - I believe testing Microservices is part of Integration testing wrt [Martin Fowler's test Pyramid](https://martinfowler.com/articles/practical-test-pyramid.html)
 - Java may not be the answer
 - I STRONGLY recommend `Postman` (black box testing).  `Newman` can be used in CI
+- See [https://github.com/hchan/postman-greetings-service](https://github.com/hchan/postman-greetings-service)
 - Black box is good ... you also offset this work to other developers (i.e. a more junior developer with NodeJS skills)
 - if you wish to migrate to `Postman` from `Arquillian`, there is a http://arquillian.org/guides/generator/  Arquillian APE REST Postman
 
